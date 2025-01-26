@@ -1,0 +1,9 @@
+{
+    "actor-spoof": {
+        "commands": {
+            "as": {
+                "description": "Allows user to mimic speaking with an existing character."
+            }
+        }
+    }
+}
