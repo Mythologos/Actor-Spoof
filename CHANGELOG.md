@@ -8,6 +8,11 @@ At most, three items will be listed under each version subheading. First, there 
 
 ## Changes
 
+### 1.0.1
+
+**Bugs**:
+- Fixes incorrect paths in `module.json` for `manifest` and `download` fields.
+
 ### 1.0.0
 
 Initial version of the `Actor-Spoof` module.

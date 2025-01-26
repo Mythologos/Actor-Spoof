@@ -1,24 +1,44 @@
 {
   "id": "actor-spoof",
   "title": "Actor Spoof",
-  "version": "1.0.0",
-  "manifest": "https://github.com/Mythologos/Actor-Spoof/releases/download/1.0.0/module.json",
-  "download": "https://github.com/Mythologos/Actor-Spoof/releases/download/1.0.0/module.zip",
+  "version": "1.0.1",
+  "manifest": "https://github.com/Mythologos/Actor-Spoof/releases/download/v1.0.1/module.json",
+  "download": "https://github.com/Mythologos/Actor-Spoof/releases/download/v1.0.1/module.zip",
   "readme": "https://github.com/Mythologos/Actor-Spoof/blob/main/README.md",
   "changelog": "https://github.com/Mythologos/Actor-Spoof/blob/main/CHANGELOG.md",
   "bugs": "https://github.com/Mythologos/Actor-Spoof/issues",
-  "compatibility": {"minimum": "12", "verified": "12"},
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
   "description": "This package attempts to provide a way to speak as another actor without connecting a profile to them.",
-  "authors": [{"name": "Mythologos", "url": "https://github.com/Mythologos"}],
-  "esmodules": ["src/scripts/spoof.js"],
-  "languages": [{"lang": "en", "name": "English", "path": "src/lang/en.json"}],
+  "authors": [
+    {
+      "name": "Mythologos",
+      "url": "https://github.com/Mythologos",
+      "flags": {}
+    }
+  ],
+  "esmodules": [
+    "src/scripts/spoof.js"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "src/lang/en.json",
+      "flags": {}
+    }
+  ],
   "relationships": {
     "requires": [
       {
         "id": "_chatcommands",
         "type": "module",
         "manifest": "https://gitlab.com/woodentavern/foundryvtt-chat-command-lib/-/raw/master/src/module.json",
-        "compatibility": { "verified": "2.0.1" }
+        "compatibility": {
+          "verified": "2.0.1"
+        }
       }
     ]
   }
